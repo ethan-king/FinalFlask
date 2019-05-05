@@ -9,15 +9,12 @@
 
 	<header>
 		<div class="container">
-		<div id="brandname">
-			Machine Learning App with Flask
-		</div>
 		<h2>Headline Sarcasm Detector</h2>
 		
 	</div>
 	</header>
 
-	<div class="ml-container">
+	<div class="ml-container" style="text-align:center">
 
 		<form action="{{ url_for('predict')}}" method="POST">
 		<p>Enter Your Headline Here</p>
@@ -27,7 +24,7 @@
 
 		<input type="submit" class="btn-info" value="Predict">
 		
-	</form>
+		</form>
 		
 	</div>
 

@@ -20,12 +20,10 @@ def home():
 
 @app.route('/predict',methods=['POST'])
 def predict():
+
+	# JSON special handling
 	data = list(parseJson('./Sarcasm_Headlines_Dataset.json'))
 	df = pd.DataFrame(data)
-
-
-	# with open("Sarcasm_Headlines_Dataset.json", errors='ignore') as f:
-	# 	data = json.load(f)
 
 
 
