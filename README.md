@@ -1,14 +1,12 @@
 # A sarcasm checker for news headlines
-A simple Flask API to detect sarcasm using Python and sklearn. 
+Ethan King  063-00-3743
 
-Ethan King  
-
-# Table of ontents
+# Table of Contents
 [Description](#Description)  
 [Users](#Users)  
 [System Design](#System-Design)  
-[Conclusions](#Conclusions)
-[References](#References)
+[Conclusions](#Conclusions)  
+[References](#References)  
 
 ## Description
 
@@ -39,9 +37,9 @@ The performance of the model could be improved by saving a serialized version of
 
 ## References
 
-https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering
-https://medium.com/@onejohi/building-a-simple-rest-api-with-python-and-flask-b404371dc699
-https://www.udemy.com/the-complete-python-web-course-learn-by-building-8-apps/
+https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering  
+https://medium.com/@onejohi/building-a-simple-rest-api-with-python-and-flask-b404371dc699  
+https://www.udemy.com/the-complete-python-web-course-learn-by-building-8-apps/  
 
 
 
